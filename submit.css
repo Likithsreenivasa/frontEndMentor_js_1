@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body,html
+{
+    min-height: 100%;
+    @import url('https://fonts.googleapis.com/css2?family=Overpass:ital@1&display=swap');
+    font-family: 'Overpass', sans-serif;
+    background-color: #0E0E0E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container
+{
+    border: 2px solid chocolate;
+    margin: 2rem 10rem;
+    width:calc(100%-20rem) ;
+    height: 15rem;
+    color: azure;
+}
+.svg-head svg
+{
+    width: 30%;
+    height: 30%;
+    margin-top: 10px;
+    margin-left: 5rem;
+}
