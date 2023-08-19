@@ -16,15 +16,32 @@ body,html
 .card-container
 {
     border: 2px solid chocolate;
-    margin: 2rem 10rem;
-    width:calc(100%-20rem) ;
-    height: 15rem;
+    /* margin: 2rem 10rem; */
+    width:25rem ;
+    height: 23rem;
     color: azure;
+    border-radius: 25px;
 }
-.svg-head svg
+#submit-svg
 {
     width: 30%;
     height: 30%;
-    margin-top: 10px;
-    margin-left: 5rem;
+    margin:3rem 6rem;
+    
+}
+#header-p,#content-h
+{
+    margin: 1rem 4rem;
+    width: 22rem;
+}
+#footer-p {
+    margin: 1rem 4rem;
+    width: 22rem;
+}
+.reading
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
